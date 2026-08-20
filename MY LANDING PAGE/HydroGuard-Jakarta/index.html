@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroGuard Jakarta</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🌊 HydroGuard
+        </div>
+
+        <ul class="nav-menu">
+
+            <li><a href="#hero">Home</a></li>
+
+            <li><a href="#problem">Masalah</a></li>
+
+            <li><a href="#solution">Solusi AI</a></li>
+
+            <li><a href="#demo">Demo AI</a></li>
+
+            <li><a href="#data">Data</a></li>
+
+        </ul>
+
+        <button id="darkModeBtn">
+            🌙
+        </button>
+
+    </nav>
+
+</header>
+
+
+<section class="hero" id="hero">
+
+<div class="hero-content">
+
+<h1>
+
+HydroGuard Jakarta
+
+</h1>
+
+<p>
+
+AI untuk Mitigasi Banjir Berbasis Deteksi Sampah Sungai dan Edukasi Masyarakat.
+
+</p>
+
+<div class="hero-button">
+
+<a href="#demo" class="btn-primary">
+
+Coba AI
+
+</a>
+
+<a href="#problem" class="btn-secondary">
+
+Pelajari Masalah
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img
+src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=900&q=80"
+alt="Sungai">
+
+</div>
+
+</section>
+
+
+<section class="problem" id="problem">
+
+<h2>
+
+Permasalahan Sosial
+
+</h2>
+
+<p class="section-text">
+
+Jakarta mengalami banjir hampir setiap musim hujan. Salah satu penyebab utamanya adalah penumpukan sampah yang menyumbat aliran sungai sehingga air tidak dapat mengalir dengan lancar. Pemeriksaan masih dilakukan secara manual sehingga penanganan sering terlambat.
+
+</p>
+
+<div class="problem-container">
+
+<div class="card">
+
+<div class="icon">
+
+🗑️
+
+</div>
+
+<h3>
+
+Sampah Menumpuk
+
+</h3>
+
+<p>
+
+Limbah rumah tangga yang dibuang ke sungai menghambat aliran air.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="icon">
+
+🌧️
+
+</div>
+
+<h3>
+
+Curah Hujan Tinggi
+
+</h3>
+
+<p>
+
+Hujan deras mempercepat kenaikan debit air sehingga risiko banjir meningkat.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="icon">
+
+🌊
+
+</div>
+
+<h3>
+
+Respon Terlambat
+
+</h3>
+
+<p>
+
+Petugas sering mengetahui penyumbatan ketika kondisi sudah kritis.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="solution" id="solution">
+
+<h2>
+
+Bagaimana AI Membantu?
+
+</h2>
+
+<div class="solution-grid">
+
+<div class="solution-card">
+
+<h3>
+
+🤖 Analisis AI
+
+</h3>
+
+<p>
+
+AI menganalisis laporan masyarakat mengenai kondisi sungai dan memperkirakan tingkat penyumbatan.
+
+</p>
+
+</div>
+
+<div class="solution-card">
+
+<h3>
+
+⚠️ Prediksi Risiko
+
+</h3>
+
+<p>
+
+Sistem memberikan status Safe, Warning, atau Critical berdasarkan deskripsi kondisi sungai.
+
+</p>
+
+</div>
+
+<div class="solution-card">
+
+<h3>
+
+📢 Edukasi
+
+</h3>
+
+<p>
+
+AI memberikan rekomendasi tindakan yang dapat dilakukan masyarakat untuk mencegah banjir.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="demo" id="demo">
+
+<h2>
+
+Demo AI HydroGuard
+
+</h2>
+
+<p>
+
+Tuliskan kondisi sungai yang Anda lihat.
+
+</p>
+
+<textarea
+id="userInput"
+placeholder="Contoh:
+Saya melihat banyak sampah plastik yang menumpuk di pintu air Manggarai."></textarea>
+
+<button id="analyzeBtn">
+
+Analisis dengan AI
+
+</button>
+
+<div id="loading">
+
+Menganalisis...
+
+</div>
+
+<div id="result">
+
+Hasil AI akan muncul di sini.
+
+</div>
+
+</section>
+
+
+<section class="statistics" id="data">
+
+<h2>
+
+Data Pendukung
+
+</h2>
+
+<div class="stats-container">
+
+<div class="stat-box">
+
+<h3 id="counter1">
+
+0
+
+</h3>
+
+<p>
+
+Titik Rawan Banjir
+
+</p>
+
+</div>
+
+<div class="stat-box">
+
+<h3 id="counter2">
+
+0
+
+</h3>
+
+<p>
+
+Sungai Besar di Jakarta
+
+</p>
+
+</div>
+
+<div class="stat-box">
+
+<h3 id="counter3">
+
+0
+
+</h3>
+
+<p>
+
+Kategori Risiko AI
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="cta">
+
+<h2>
+
+Mari Bersama Menjaga Sungai Jakarta
+
+</h2>
+
+<p>
+
+Perubahan dimulai dari langkah kecil. Laporkan kondisi sungai dan bantu mencegah banjir sejak dini.
+
+</p>
+
+<a href="#hero" class="btn-primary">
+
+Kembali ke Atas
+
+</a>
+
+</section>
+
+
+<footer>
+
+<p>
+
+© 2026 HydroGuard Jakarta
+
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body { 
+    font-family: sans-serif; 
+    color: #333; 
+    line-height: 1.6; 
+    background: #f9f9f9; 
+    text-align: center; 
+}
+
+section { 
+    padding: 60px 20px; 
+}
+
+#hero { 
+    background: #fff; 
+}
+
+#hero img { 
+    border-radius: 50%; 
+    margin-bottom: 15px; 
+}
+
+#hero h1 { 
+    font-size: 32px; 
+    margin-bottom: 5px; 
+}
+
+#hero p { 
+    color: #666; 
+    margin-bottom: 25px; 
+}
+
+.btn { 
+    display: inline-block; 
+    background: #007bff; 
+    color: #fff; 
+    padding: 10px 25px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+#tentang, #harga { 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.grid { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 15px; 
+    margin-top: 30px; 
+}
+
+.card { 
+    background: #fff; 
+    padding: 20px; 
+    flex: 1 1 200px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+}
+
+.tabel-kontainer {
+    margin-top: 30px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background: #007bff;
+    color: #fff;
+}
